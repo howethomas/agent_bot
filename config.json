@@ -98,6 +98,14 @@
         "data_type": "boolean",
         "value": true,
         "user_editable": false
+      },
+      "SUPERVISOR_TIMEOUT":{
+        "label": "Supvervisor Timeout (min)",
+        "script_key": "SUPERVISOR_TIMEOUT",
+        "help_text": "Number of minutes to notify supervisors that the chat is unanswered.",
+        "data_type": "text",
+        "value": "20",
+        "user_editable": false
       }
   }
 }
